@@ -1,0 +1,96 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400, 500&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Oswald:wght@200;300&display=swap');
+body {
+    padding: 100px;
+    background-image: url('bg.png');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+}
+    
+.main {
+    width: 800px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    overflow: auto;
+    flex-flow: column nowrap;
+}
+
+img {
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: #1a0376;
+    padding-bottom: 20px;
+}
+
+h2 {
+    border-top: 2px solid black;
+    width: 500px;
+    color: #1a0376;
+    margin: 0 auto;
+    margin-top: 1em; 
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #324e63;
+}
+p {
+   margin: 0 auto;
+   padding-top: 20px;
+   width: 450px;
+   height: auto;
+   color: #324e63;
+   text-align: justify;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    text-align: left;
+}
+
+.social-media ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+.social-media ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.social-media ul li a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.social-media ul li a:hover {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 100px;
+}
